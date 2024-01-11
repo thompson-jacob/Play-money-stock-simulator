@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
+  resources :user_stocks
   # EXAMPLE HTML ROUTE
   # get "/photos" => "photos#index"
 
